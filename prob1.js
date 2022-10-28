@@ -2,7 +2,7 @@
     var a=[]
     arr.sort((a,b)=>b-a)
     while(arr.length>0){
-        console.log(arr,a)
+        
         if(arr.length>1){
             a.push(arr[0])
             a.push(arr[arr.length-1])
